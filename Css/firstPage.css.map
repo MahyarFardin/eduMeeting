@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,KAAK,EAAE,IAAI;CACd",
+    "mappings": "AAAA,AAAA,IAAI,CAAA;EACA,WAAW,EAAE,OAAO;CACvB;;AACD,AAAA,SAAS,CAAC;EACN,OAAO,EAAE,QAAQ;CACpB",
     "sources": [
         "firstPage.scss"
     ],
