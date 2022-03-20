@@ -1,3 +1,7 @@
+body {
+  background-color: black;
+}
+
 .nav-item {
   padding: 0em .7em;
 }
@@ -42,5 +46,28 @@
 
 .btn {
   z-index: 50;
+}
+
+.card {
+  background: url("../files/images/service-item-bg.jpg");
+  border-radius: 1.5em;
+}
+
+.hide {
+  display: none;
+}
+
+#cards-part .card {
+  margin: 0em 1em;
+}
+
+.card-body h4 {
+  font-size: 18px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.card-body img {
+  padding-top: 2em;
 }
 /*# sourceMappingURL=firstPage.css.map */
