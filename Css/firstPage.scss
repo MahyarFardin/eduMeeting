@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    color: white;
 }
 .nav-item {
     padding: 0em .7em;
@@ -46,7 +47,7 @@ body{
     z-index: 50;
 }
 
-.card{
+#cards-part .card{
     background: url("../files/images/service-item-bg.jpg");
     border-radius: 1.5em;
 }
@@ -55,7 +56,7 @@ body{
     display: none;
 }
 
-.col .row .card{
+.text-center .row .card{
     margin: 0em 1em;
 }
 
@@ -70,12 +71,23 @@ body{
     padding-top: 2em;
 }
 
+.prev-next{
+    padding-top: 7em;
+}
+
 #cards-part{
     position: relative;
     z-index: 100;
-    margin-top: -8em;
+    background: url(../files/images/meetings-bg.jpg);   
+    padding-top: 5em;
 }
-
-.prev-next{
-    padding-top: 7em;
+#meetings{
+    margin: 0px;
+    background: url(../files/images/meetings-bg.jpg);
+    width:100%;
+    height: 100vh;
+    top:0;
+    left:0;
+    object-fit:cover;
+    font-family:'object-fit: cover';
 }
