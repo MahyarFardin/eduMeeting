@@ -141,3 +141,25 @@ a{
     margin-left: auto;
     margin-right: auto;
 }
+
+.apply-list h4{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.apply-list p{
+    font-size: 15px;
+    padding-left: 1em;
+}
+
+.apply-list a{
+    float: right;
+    margin-top: -30px;
+}
+
+.apply-list li{
+    padding-bottom: 1em;
+}
+.apply-list .hide-element p{
+    display: none;
+}
