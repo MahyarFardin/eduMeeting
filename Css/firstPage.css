@@ -15,6 +15,10 @@ a {
   text-decoration: none;
 }
 
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #f5a425;
+}
+
 .nav-item {
   padding: 0em .7em;
 }
@@ -169,5 +173,81 @@ a {
 
 .apply-list .hide-element p {
   display: none;
+}
+
+.semi-cards {
+  display: block;
+  padding: 2em 3em;
+  margin: 1em 0em;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 2em;
+}
+
+.semi-cards:hover {
+  background-color: white;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.semi-cards:hover .title {
+  color: black;
+}
+
+.semi-cards .number, .title {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.title {
+  font-size: 18px;
+}
+
+.semi-cards .number {
+  color: #f5a425;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.col svg:hover {
+  width: 15%;
+  height: 15%;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+#contact .row {
+  padding-top: 3em;
+}
+
+input, textarea {
+  border: none;
+}
+
+input::-webkit-input-placeholder, template::-webkit-input-placeholder {
+  text-transform: uppercase;
+}
+
+input:-ms-input-placeholder, template:-ms-input-placeholder {
+  text-transform: uppercase;
+}
+
+input::-ms-input-placeholder, template::-ms-input-placeholder {
+  text-transform: uppercase;
+}
+
+input::placeholder, template::placeholder {
+  text-transform: uppercase;
+}
+
+#contact hr {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*# sourceMappingURL=firstPage.css.map */
