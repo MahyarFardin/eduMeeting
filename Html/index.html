@@ -18,10 +18,11 @@
 
 <body>
     <!-- navbar -->
-    <nav class="navbar-costume navbar fixed-top bg-transparent navbar-expand-lg navbar-light bg-light"
+    <nav id="nav" class="navbar-costume navbar fixed-top navbar-expand-lg bg-transparent navbar-light"
         style="text-transform: uppercase; padding-top: 1.5em; padding-bottom: 1.5em;">
         <div class="container">
-            <a style="color:white; font-weight: bolder; font-size: 25px;" class="navbar-brand" href="#">Edu Meeting</a>
+            <a style="color:white; font-weight: bolder; font-size: 25px;" class="navbar-brand" href="#">Edu
+                Meeting</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -29,13 +30,13 @@
             <div class="collapse navbar-collapse" id="navbarNav" style="justify-content: end;">
                 <ul style="font-size: 14px;" class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">home</a>
+                        <a class="nav-link active home" href="#home">home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#meetings">meetings</a>
+                        <a class="nav-link meetings" href="#meetings">meetings</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#apply">apply now</a>
+                        <a class="nav-link apply" href="#apply">apply now</a>
                     </li>
                     <li class="nav-item">
                         <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
@@ -55,7 +56,7 @@
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">contact</a>
+                        <a class="nav-link contact" href="#contact">contact</a>
                     </li>
                 </ul>
             </div>
@@ -89,7 +90,7 @@
     </section>
 
     <!-- cards -->
-    <div id="cards-part" class="col text-center" style="padding-left: 1.5em;">
+    <div id="cards-part" class="col-lg-12 text-center" style="padding-left: 1.5em;">
         <div class="row">
             <div style="display:inline;" class="prev-next col-1 rounded float-start">
                 <a href="">
@@ -150,7 +151,7 @@
     </div>
 
     <!-- meetings -->
-    <section id="meetings" style="padding-top: 8em; padding-bottom: 5em;">
+    <section id="meetings" class="col" style="padding-top: 8em; padding-bottom: 5em;">
         <div class="meetings-top text-center">
             <h3 style="text-transform: uppercase;font-weight: bolder; font-size: 20px; font-family: poppins;">Upcoming
                 meetings</h3>
@@ -257,8 +258,8 @@
     <!-- apply -->
     <section id="apply"
         style="color:black; background: url(../files/images/apply-bg.jpg); background-attachment: fixed; padding-top: 5em;">
-        <div class="row " style="padding-left: 5em;">
-            <div class="col-5">
+        <div class="row" style="padding-left: 5em;">
+            <div class="col-md-5">
                 <div style="padding: 1em; margin: 1em;" class="card" style="width: 25rem;">
                     <div class="card-body">
                         <h5 class="card-title">APPLY FOR BACHELOR DEGREE</h5>
@@ -282,7 +283,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-5 apply-list" style="margin: 1em 2em; padding: 2em; border-radius: 2em; background: white;">
+            <div class="col-md-5 col-sm-4 apply-list" style="margin: 1em 2em; padding: 2em; border-radius: 2em; background: white;">
                 <ul>
                     <li class="active">
                         <h5 style="display:block;">About Edu Meeting HTML Template</h5>
@@ -404,7 +405,7 @@
     <div id="contact" style="background:url(../files/images/meetings-bg.jpg); padding: 5em;">
         <div class="container">
             <div class="row">
-                <div style="background-color: white; border-radius: 1.5em; color: black;" class="col-8">
+                <div style="background-color: white; border-radius: 1.5em; color: black;" class="col-md-8 col-sm-3">
                     <h5 style="text-transform: uppercase; padding: 2em 2em; padding-bottom: 1em; font-weight: bold;">
                         Let's get in touch!</h5>
                     <hr style="width: 90%; margin-left: auto; margin-right: auto; color: gray;">
@@ -424,7 +425,7 @@
                         type="button" class="btn btn-danger">Send message now!</button>
                 </div>
 
-                <div style="background-color: #a12c2f; border-radius: 1.5em; margin-left: 4em;" class="col-3">
+                <div style="background-color: #a12c2f; border-radius: 1.5em; margin-left: 4em;" class="contact-methods col-md-3 col-sm-4">
                     <ul style="padding-top: 4em;">
                         <li>
                             <h6>Phone Number</h6>
@@ -446,10 +447,6 @@
                             <span>www.meeting.edu</span>
                         </li>
                     </ul>
-                </div>
-                <hr style="margin: 5em auto;">
-                <div class="footer text-center">
-                    <p>Copyright © 2022 Edu Meeting Co., Ltd. All Rights Reserved.</p>
                 </div>
             </div>
         </div>

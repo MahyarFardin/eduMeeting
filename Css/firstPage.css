@@ -19,6 +19,10 @@ a {
   color: #f5a425;
 }
 
+.navbar-light .navbar-nav .nav-link.active {
+  color: #f5a425;
+}
+
 .nav-item {
   padding: 0em .7em;
 }
@@ -249,5 +253,41 @@ input::placeholder, template::placeholder {
   width: 90%;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media only screen and (max-width: 700px) {
+  .prev-next img {
+    display: none;
+  }
+  #cards-part .row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: -2em auto;
+  }
+  #cards-part .card {
+    margin: 2em auto;
+  }
+  #meetings .container .col .card {
+    margin: 1em auto;
+  }
+  #apply .col-md-5 .card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #apply .apply-list {
+    display: none;
+  }
+  #facts {
+    display: none;
+  }
+  .contact-methods ul {
+    text-align: center;
+    padding: 0;
+  }
 }
 /*# sourceMappingURL=firstPage.css.map */
