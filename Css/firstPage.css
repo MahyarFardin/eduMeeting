@@ -282,6 +282,9 @@ input::placeholder, template::placeholder {
   #apply .apply-list {
     display: none;
   }
+  #apply .row {
+    padding-left: 0em;
+  }
   #facts {
     display: none;
   }

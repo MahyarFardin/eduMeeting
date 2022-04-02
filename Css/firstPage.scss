@@ -259,10 +259,12 @@ input::placeholder, template::placeholder{
         display: none;
     }
 
+    #apply .row{
+        padding-left: 0em;
+    }
     #facts{
         display: none;
     }
-
 
     .contact-methods ul{
         text-align: center;
