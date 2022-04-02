@@ -12,29 +12,3 @@ window.addEventListener("scroll", (event) => {
         navbar.classList.remove("navbar-dark", "bg-dark");
     }
 });
-
-
-// this is for activie page in navbar
-const home = document.querySelector(".home");
-const contact = document.querySelector(".contact");
-const meetings = document.querySelector(".meetings");
-const apply = document.querySelector(".apply");
-
-var last = home;
-
-var Identifier= function(tag){
-    console.log(tag);
-    tag.target.classList.add("active");
-    last.classList.remove("active");
-    last=tag.target;
-}
-
-
-home.addEventListener("click",Identifier(home));
-
-contact.addEventListener("click",Identifier(contact));
-
-meetings.addEventListener("click",Identifier(meetings));
-
-apply.addEventListener("click",Identifier(apply));
-

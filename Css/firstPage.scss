@@ -1,8 +1,13 @@
 body{
     background-color: black;
     color: white;
-    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-x: hidden;
     font-family: poppins;
+}
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
 }
 li{
     list-style: none;
@@ -63,6 +68,9 @@ a{
 
 .btn{
     z-index: 50;
+}
+#cards-part{
+    width: 100%;
 }
 
 #cards-part .card{
@@ -216,10 +224,12 @@ a{
 
 #contact .row{
     padding-top: 3em;
+    justify-content: center;
 }
 
 input, textarea{
     border: none;
+    justify-content: center;
 }
 
 input::placeholder, template::placeholder{
@@ -233,10 +243,16 @@ input::placeholder, template::placeholder{
 }
 
 @media only screen and (max-width: 700px) {
+    body{
+        padding-right: -2em;
+    }
     .prev-next img{
         display: none;
     }
 
+    #cards-part{
+        margin-top: -1em;
+    }
     #cards-part .row{
         display: flex;
         flex-direction: column;
@@ -255,9 +271,6 @@ input::placeholder, template::placeholder{
         margin-left: auto;
         margin-right: auto;
     }
-    #apply .apply-list{
-        display: none;
-    }
 
     #apply .row{
         padding-left: 0em;
@@ -266,9 +279,12 @@ input::placeholder, template::placeholder{
         display: none;
     }
 
+    .contact-methods{
+        margin-top: 1em;
+    }
+
     .contact-methods ul{
         text-align: center;
         padding: 0;
-    }
-    
+    }    
 }
